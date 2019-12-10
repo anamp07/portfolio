@@ -1,0 +1,22 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.main-navbar {
+  background-color: rgb(29, 29, 29);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+  font-size: 13px;
+}
+
+.nav-link:hover {
+  border-top: 1px solid rgb(144, 12, 52);
+  color: rgb(144, 12, 52) !important;
+}
