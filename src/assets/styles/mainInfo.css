@@ -1,0 +1,29 @@
+.main-info {
+  height: 100vh;
+}
+
+.jumbotron {
+  background-color: rgb(12, 144, 126) !important;
+background-image: url("../../assets/images/asfalt-dark.png") !important;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  height: 100vh;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.main-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7em;
+  text-align: left;
+  display: inline-block;
+}
+
+.main-description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.7em;
+  padding: 1.6em;
+  text-align: justify;
+}
+
+.profile-photo{
+  border: 1px solid rgb(255, 255, 255);
+}

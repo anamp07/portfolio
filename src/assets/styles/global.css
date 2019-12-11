@@ -1,5 +1,17 @@
 body {
   font-family: 'Open Sans', sans-serif !important;
+  padding-top: 40px;
+}
+
+.target {
+  border-bottom: 1px solid rgb(182, 179, 179);
+}
+
+.target:before {
+   content: "";
+   display: block;
+   height: 50px;
+   margin: -30px 0 0;
 }
 
 .main-navbar {
@@ -17,6 +29,6 @@ body {
 }
 
 .nav-link:hover {
-  border-top: 1px solid rgb(144, 12, 52);
-  color: rgb(144, 12, 52) !important;
+  border-top: 1px solid rgb(12, 144, 126);
+  color: rgb(12, 144, 126) !important;
 }

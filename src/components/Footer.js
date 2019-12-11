@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar';
 
 export const Footer = () => (
-  <Navbar expand="lg" variant="light" bg="light" sticky="bottom">
+  <Navbar expand="lg" variant="light" bg="light">
     <Navbar.Brand href="#">Made by Ana Pantoja</Navbar.Brand>
   </Navbar>
 )

@@ -1,5 +1,57 @@
+.section-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 8px;
+  display: inline-block;
+  color: rgb(255,255,255);
+}
+
+.subsection-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  padding: 8px;
+  display: inline-block;
+  color: rgb(0,0,0);
+}
+
+.about-title {
+  background-color: rgb(12, 144, 126);
+}
+
+.studies-title {
+  border-bottom: 2px solid rgb(12, 144, 126);
+}
+
+.languages-title {
+  border-bottom: 2px solid rgb(12, 144, 126);
+}
+
+
+
 .about-info {
   padding: 1em;
   text-align: justify;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.about-name {
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  border: 0px !important;
+}
+
+.card-title {
+  font-size: 1em !important;
+}
+
+.card-subtitle {
+  font-size: 0.8em !important;
+}
+
+.card-text {
+  font-size: 0.8em !important;
 }
