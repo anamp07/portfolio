@@ -11,7 +11,7 @@ import '../assets/styles/mainInfo.css';
 export const MainInfo = () => (
   <section className="main-info">
   <Jumbotron fluid className="d-flex">
-    <Container className="justify-content-center align-self-center">
+    <Container className="justify-content-center align-self-center mt-3">
     <Row>
     <Col sm={4} className="text-center">
       <Image src={profile}  className="profile-photo" roundedCircle />

@@ -11,9 +11,8 @@ export const NavigationBar = () => (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">
         <Nav.Link href="#about">ABOUT</Nav.Link> /
-        <Nav.Link href="/OurCauses">SKILLS</Nav.Link> /
-        <Nav.Link href="/Events">PORTFOLIO</Nav.Link> /
-        <Nav.Link href="/News">CONTACT</Nav.Link>
+        <Nav.Link href="#skills">SKILLS</Nav.Link> /
+        <Nav.Link href="#portfolio">PORTFOLIO</Nav.Link>
       </Nav>
       </Navbar.Collapse>
     </Container>

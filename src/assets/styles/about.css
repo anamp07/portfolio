@@ -26,7 +26,21 @@
   border-bottom: 2px solid rgb(12, 144, 126);
 }
 
+.contact-info {
+  background-color: rgb(12, 144, 126);
+  padding: 1em;
+  color: rgb(255, 255, 255);
+  width: 100%;
+}
 
+.contact-info a {
+  color: rgb(255, 255, 255);
+}
+
+.contact-info a:hover {
+  color: rgba(255, 255, 255, 0.4);
+  text-decoration: none;
+}
 
 .about-info {
   padding: 1em;
@@ -45,13 +59,13 @@
 }
 
 .card-title {
-  font-size: 1em !important;
+  font-size: 0.8em !important;
 }
 
 .card-subtitle {
-  font-size: 0.8em !important;
+  font-size: 0.7em !important;
 }
 
 .card-text {
-  font-size: 0.8em !important;
+  font-size: 0.7em !important;
 }

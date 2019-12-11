@@ -1,0 +1,13 @@
+.portfolio-link {
+  font-size: 0.7em;
+  color: rgb(12, 144, 126);
+}
+
+.portfolio-link:hover {
+  font-size: 0.7em;
+  color: rgb(5, 83, 72);
+}
+
+.portfolio-card {
+   border: 1px solid rgb(246, 246, 246) !important;
+}
