@@ -11,3 +11,7 @@
 .portfolio-card {
    border: 1px solid rgb(246, 246, 246) !important;
 }
+
+.portfolio-section {
+  padding: 0em 2em 0em 2em;
+}

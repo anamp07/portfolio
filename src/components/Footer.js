@@ -1,9 +1,12 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar';
 
 export const Footer = () => (
-  <Navbar expand="lg" variant="light" bg="light">
-    <Navbar.Brand href="#">Made by Ana Pantoja</Navbar.Brand>
+  <Navbar className="credit" expand="lg" variant="light">
+    <Container>
+    Made by Ana Pantoja
+    </Container>
   </Navbar>
 )

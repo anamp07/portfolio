@@ -8,8 +8,9 @@ import '../assets/styles/skills.css';
 export const Skills = () => (
   <Container className="mt-2">
   <h5 className="section-title about-title">SKILLS</h5>
+  <div className="section-line"></div>
 
-  <Row>
+  <Row className="skills-section">
     <Col sm={6}>
       <span className="mt-2">HTML, CSS, Bootstrap</span>
       <ProgressBar className="skill-one" now={80} max={100}/>
@@ -32,9 +33,12 @@ export const Skills = () => (
     </Col>
   </Row>
 
+  <div className="skills-section">
   <h6 className="subsection-title languages-title mt-2">OTHERS</h6>
-  <p>Adobe XD, Tableau, Google Data Studio, Google Analytics, Microsoft Office,
-  Linux, Arduino, Processing, Zenhub.</p>
+  <p>Adobe XD, Tableau, Google Analytics, Microsoft Office,
+  Linux, Arduino, Processing, Usability, User Centered Design,
+  Transmedia Storytelling, and 3D Modeling. </p>
+  </div>
 
   </Container>
 )

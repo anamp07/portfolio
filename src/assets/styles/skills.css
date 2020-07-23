@@ -1,19 +1,23 @@
+.skills-section {
+  padding: 0em 2em 0em 2em;
+}
+
 .skill-one .progress-bar {
-  background-color: rgb(196, 72, 82);
+  background-color: #A20D66;
 }
 
 .skill-two .progress-bar {
-  background-color: rgb(191, 218, 87);
+  background-color: #A20D66;
 }
 
 .skill-three .progress-bar {
-  background-color: rgb(69, 106, 147);
+  background-color: #A20D66;
 }
 
 .skill-four .progress-bar {
-  background-color: rgb(226, 89, 97);
+  background-color: #A20D66;
 }
 
 .skill-five .progress-bar {
-  background-color: rgb(88, 208, 208);
+  background-color: #A20D66;
 }

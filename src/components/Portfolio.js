@@ -17,7 +17,8 @@ export const Portfolio = () => (
   <Container className="mt-2">
   <section className="professional">
   <h5 className="section-title about-title">PORTFOLIO</h5>
-  <Row>
+  <div className="section-line"></div>
+  <Row className="portfolio-section">
   <Col sm={4}>
     <Card style={{ width: '18rem' }} className="portfolio-card mt-2">
       <Card.Img variant="top" src={resultsDashboard} />
@@ -55,40 +56,21 @@ export const Portfolio = () => (
     </Card>
   </Col>
   </Row>
-  <Row>
-  <Col sm={4}>
-    <Card className="portfolio-card mt-2" style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={bsportfolio} />
-      <Card.Body>
-        <Card.Title>BullSmile PDF Portfolio</Card.Title>
-        <Card.Text>
-          Portfolio designed using Adobe Illustrator to show BullSmile's projects.
-        </Card.Text>
-        <a className="portfolio-link" href="https://drive.google.com/open?id=17IBLtf4Q28nNAaD07LPOjjybQmfPQZ7W" target="_blank">View</a>
-      </Card.Body>
-    </Card>
-  </Col>
-  <Col sm={4}>
-  </Col>
-  <Col sm={4}>
-  </Col>
-  </Row>
   </section>
 
   <section className="personal">
   <h6 className="subsection-title languages-title mt-2">PERSONAL PROJECTS</h6>
-  <Row>
+  <Row className="portfolio-section">
   <Col sm={4}>
     <Card className="portfolio-card mt-2" style={{ width: '18rem' }}>
       <Card.Img variant="top" src={personajes} />
       <Card.Body>
-        <Card.Title>Character Design</Card.Title>
+        <Card.Title>Interactive Book</Card.Title>
         <Card.Text>
-          Characters designed for my thesis project.
+          Made for my thesis project
         </Card.Text>
-        <a className="portfolio-link" href="https://drive.google.com/open?id=1paHPAGQfM7iyww0wqMvjtIcL9H2VZG5S" target="_blank">View</a>
-      </Card.Body>
-    </Card>
+        <a className="portfolio-link" href="https://drive.google.com/file/d/15k1ytJ4azDX1YJ4SoG-N-H0CE9sNme6j/view?usp=sharing" target="_blank">View</a>
+      </Card.Body>    </Card>
   </Col>
   <Col sm={4}>
     <Card className="portfolio-card mt-2" style={{ width: '18rem' }}>

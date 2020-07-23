@@ -4,9 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
 export const NavigationBar = () => (
-  <Navbar expand="lg" fixed="top" className="navbar-dark main-navbar">
+  <Navbar expand="lg" fixed="top" className="navbar-light main-navbar">
   <Container>
-    <Navbar.Brand>AP.</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ml-auto">

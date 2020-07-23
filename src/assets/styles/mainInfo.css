@@ -1,10 +1,11 @@
 .main-info {
   height: 100vh;
+  margin-top: -5px;
+  margin-bottom: 5em;
 }
 
 .jumbotron {
-  background-color: rgb(12, 144, 126) !important;
-background-image: url("../../assets/images/asfalt-dark.png") !important;
+  background-color: #FFFFFF !important;
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
   height: 100vh;
   color: rgba(255, 255, 255, 0.8);
@@ -19,11 +20,20 @@ background-image: url("../../assets/images/asfalt-dark.png") !important;
 
 .main-description {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  padding: 1.6em;
+  text-transform: uppercase;
   text-align: justify;
 }
 
-.profile-photo{
-  border: 1px solid rgb(255, 255, 255);
+.main-description .text{
+  font-size: 1.6em;
+  font-weight: 600;
+  color: #CAAB55;
+  margin: -10px 0px -10px 0px;
+}
+
+.main-description .name{
+  font-size: 2.45em;
+  font-weight: 800;
+  color: #FFBC00;
+  margin: -10px 0px -10px 0px;
 }
