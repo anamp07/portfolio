@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.dd4b4770.chunk.css",
-    "main.js": "/static/js/main.0092031a.chunk.js",
-    "main.js.map": "/static/js/main.0092031a.chunk.js.map",
+    "main.js": "/static/js/main.f5cc89aa.chunk.js",
+    "main.js.map": "/static/js/main.f5cc89aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b2168ff7.chunk.js": "/static/js/2.b2168ff7.chunk.js",
-    "static/js/2.b2168ff7.chunk.js.map": "/static/js/2.b2168ff7.chunk.js.map",
+    "static/js/2.ccee65b7.chunk.js": "/static/js/2.ccee65b7.chunk.js",
+    "static/js/2.ccee65b7.chunk.js.map": "/static/js/2.ccee65b7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.bc4bee2ecc7a783791f8b3e907cf5030.js": "/precache-manifest.bc4bee2ecc7a783791f8b3e907cf5030.js",
+    "precache-manifest.674c0627acba40c32b57d4d4a091990d.js": "/precache-manifest.674c0627acba40c32b57d4d4a091990d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.dd4b4770.chunk.css.map": "/static/css/main.dd4b4770.chunk.css.map",
-    "static/js/2.b2168ff7.chunk.js.LICENSE.txt": "/static/js/2.b2168ff7.chunk.js.LICENSE.txt",
+    "static/js/2.ccee65b7.chunk.js.LICENSE.txt": "/static/js/2.ccee65b7.chunk.js.LICENSE.txt",
     "static/media/Personajes.png": "/static/media/Personajes.395bf0bf.png",
     "static/media/bsportfolio.png": "/static/media/bsportfolio.f27d4d12.png",
     "static/media/ccafsguide.png": "/static/media/ccafsguide.ccf14426.png",
@@ -21,6 +21,7 @@
     "static/media/doumies.png": "/static/media/doumies.0847c336.png",
     "static/media/globalfilters.png": "/static/media/globalfilters.68190ec2.png",
     "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
+    "static/media/personalportfolio.png": "/static/media/personalportfolio.0dcc660a.png",
     "static/media/profile.svg": "/static/media/profile.a7ec7574.svg",
     "static/media/profilepic.png": "/static/media/profilepic.426a1272.png",
     "static/media/qualityassessment.png": "/static/media/qualityassessment.3b66b129.png",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.b2168ff7.chunk.js",
+    "static/js/2.ccee65b7.chunk.js",
     "static/css/main.dd4b4770.chunk.css",
-    "static/js/main.0092031a.chunk.js"
+    "static/js/main.f5cc89aa.chunk.js"
   ]
 }
