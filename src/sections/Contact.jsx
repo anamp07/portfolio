@@ -30,7 +30,7 @@ const ContactBtn = styled(Link)(({ theme }) => ({
 const Contact = ({contact}) => {
   return (
     <section id='contact' style={{margin: '2rem 0', textAlign: 'center'}}>
-      <Typography variant="h1" sx={{ marginBottom: '1rem' }}>
+      <Typography variant="h2" sx={{ marginBottom: '1rem' }}>
         {contact.description}
       </Typography>
       <Box sx={{

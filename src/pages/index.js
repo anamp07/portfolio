@@ -18,9 +18,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <header>
-        <Navigation />
-      </header>
+      <Navigation />
       <main>
         <Container maxWidth="md" sx={{ paddingY: '3.125rem', mt: '3.125rem' }}>
           <Hero data={Data.hero}/>

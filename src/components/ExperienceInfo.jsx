@@ -5,7 +5,7 @@ import { Box, List, ListItem, Typography } from '@mui/material'
 const ExperienceInfo = ({data, key}) => {
   return (
     <Box>
-      <Typography variant='subtitle1' sx={{fontWeight: '500'}}>
+      <Typography component='p' variant='subtitle1' sx={{fontWeight: '500'}}>
           {data.years}
       </Typography>
       <Typography variant='body' paragraph sx={{mb: '0', fontStyle: 'italic', fontWeight: '500'}}>
