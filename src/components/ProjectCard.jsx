@@ -7,17 +7,20 @@ import Typography from '@mui/material/Typography';
 import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 import Link from '@mui/material/Link';
 import { Box } from '@mui/material';
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const ProjectCard = ({project}) => {
     const theme = useTheme()
 
     return (
+        <AnimationOnScroll animateIn="animate__fadeInUp">
         <Card sx={{ 
             backgroundColor: theme.palette.primary.main,
             color: theme.palette.primary.contrastText,
             display: 'flex',
             flexDirection: 'column',
             justifyContent: 'space-between',
+            height: '100%'
         }}>
             <Box>
                 <CardMedia
@@ -56,6 +59,7 @@ const ProjectCard = ({project}) => {
                 </Link>
             </CardActions>
         </Card>
+        </AnimationOnScroll>
     )
 }
 

@@ -7,6 +7,7 @@ import Contact from "@/sections/Contact"
 import { Data } from '../data/aboutme'
 import { Container } from "@mui/material"
 import Hero from "@/components/Hero"
+import "animate.css/animate.min.css"
 
 export default function Home() {
 

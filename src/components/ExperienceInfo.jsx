@@ -1,9 +1,11 @@
 import React from 'react'
 import SkillsPill from './SkillsPill'
 import { Box, List, ListItem, Typography } from '@mui/material'
+import { AnimationOnScroll } from 'react-animation-on-scroll'
 
 const ExperienceInfo = ({data, key}) => {
   return (
+    <AnimationOnScroll animateIn="animate__slideInLeft animate__slow">
     <Box>
       <Typography component='p' variant='subtitle1' sx={{fontWeight: '500'}}>
           {data.years}
@@ -28,6 +30,7 @@ const ExperienceInfo = ({data, key}) => {
         ))}
       </Box>
     </Box>
+    </AnimationOnScroll>
   )
 }
 
